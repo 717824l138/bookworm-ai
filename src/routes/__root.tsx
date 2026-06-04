@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Personalized book recommendations from an agentic AI librarian." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "BookLovers AI" },
+      { name: "twitter:description", content: "Personalized book recommendations from an agentic AI librarian." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4573486a-7702-4483-ac9f-e7c8b45c0c5e/id-preview-78fb5d5c--6d3ebf2b-a50f-4e50-ab9c-2a0435daa8a8.lovable.app-1780548618945.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4573486a-7702-4483-ac9f-e7c8b45c0c5e/id-preview-78fb5d5c--6d3ebf2b-a50f-4e50-ab9c-2a0435daa8a8.lovable.app-1780548618945.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
